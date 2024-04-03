@@ -1,0 +1,181 @@
+body {
+  font-family: "Roboto Mono", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/travel4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  padding: 20px;
+}
+
+.left-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 80%;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.left-content {
+  color: #252525;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.about-header {
+  color: #252525;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.about-header h1 {
+  font-size: 36px;
+}
+
+.about-content {
+  padding: 50px 0;
+  color: #252525;
+}
+
+.our-team {
+  padding: 50px 0;
+  color: #252525;
+}
+
+.our-team h2 {
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.team-member img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.member-details {
+  text-align: center;
+}
+
+.role-badge {
+  background-color: #f1d615;
+  color: #252525;
+  border-radius: 20px;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.company-history {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.company-history-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.company-history .container {
+  position: relative;
+  z-index: 1;
+  color: #faf9f6;
+}
+
+.location-image {
+  width: 100%;
+  height: 50vh;
+}
+
+.error {
+  color: rgb(216, 8, 8);
+  font-weight: 600;
+}
+
+.visit-btn {
+  width: 20%;
+}
